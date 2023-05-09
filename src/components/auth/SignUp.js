@@ -20,7 +20,7 @@ const SignUp = ({ setModalOpen }) => {
       const { user } = userCredential;
 
       // Sends the user_id, email, and username to the backend
-      await axios.post("https://musical-maamoul-dba19e.netlify.app//users/create/", {
+      await axios.post("https://musical-maamoul-dba19e.netlify.app/users/create/", {
         user_id: user.uid,
         email: email,
         username: username,

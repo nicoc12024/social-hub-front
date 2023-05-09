@@ -21,8 +21,8 @@ export const useHandleLike = (userId) => {
 
   // Handle like and unlike
   const handleLike = async (blogId, isLiked) => {
-    const likeUrl = `https://musical-maamoul-dba19e.netlify.app//likes/`;
-    const getLikeUrl = `https://musical-maamoul-dba19e.netlify.app//likes/get/`;
+    const likeUrl = `https://musical-maamoul-dba19e.netlify.app/likes/`;
+    const getLikeUrl = `https://musical-maamoul-dba19e.netlify.app/likes/get/`;
 
     try {
       if (!isLiked) {

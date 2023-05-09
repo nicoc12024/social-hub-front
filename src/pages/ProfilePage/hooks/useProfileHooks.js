@@ -58,7 +58,7 @@ export const useProfilePageHooks = (userId) => {
   const updateBackend = useCallback(
     async (email, userId, username, location, profession, bio) => {
       try {
-        await axios.put("https://musical-maamoul-dba19e.netlify.app/users/update/", {
+        await axios.put("http://localhost:8000/users/update/", {
           user_id: userId,
           email: email,
           username: username,
@@ -100,7 +100,7 @@ export const useProfilePageHooks = (userId) => {
   // Update the the profile picture of the user in the backend and in the local state
   const updateProfilePicture = async (userId, profilePictureLink) => {
     try {
-      await axios.put("https://musical-maamoul-dba19e.netlify.app/users/update/", {
+      await axios.put("http://localhost:8000/users/update/", {
         user_id: userId,
         profilePicture: profilePictureLink,
         username: userInfoFromBackend.username,

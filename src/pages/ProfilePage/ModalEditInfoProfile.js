@@ -84,7 +84,7 @@ export default function ModalEditInfoProfile({
                       className="max-w-xl w-full px-4 py-1 mt-1 bg-bgLightPurple text-gray1 border border-gray1 rounded  focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
                     />
                     {remainingUsernameChar === 0 && (
-                      <p className="text-right text-gray2 mt-1">
+                      <p className="text-right text-gray2 mt-1 cursor-auto">
                         {remainingUsernameChar} characters remaining
                       </p>
                     )}
@@ -102,7 +102,7 @@ export default function ModalEditInfoProfile({
                       className="max-w-xl w-full px-4 py-1 mt-1 bg-bgLightPurple text-gray1 border border-gray1 rounded  focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
                     />
                     {remainingLocationChar === 0 && (
-                      <p className="text-right text-gray2 mt-1">
+                      <p className="text-right text-gray2 mt-1 cursor-auto">
                         {remainingLocationChar} characters remaining
                       </p>
                     )}
@@ -120,7 +120,7 @@ export default function ModalEditInfoProfile({
                       className="max-w-xl w-full px-4 py-1 mt-1 bg-bgLightPurple text-gray1 border border-gray1 rounded  focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
                     />
                     {remainingProfessionChar === 0 && (
-                      <p className="text-right text-gray2 mt-1">
+                      <p className="text-right text-gray2 mt-1 cursor-auto">
                         {remainingProfessionChar} characters remaining
                       </p>
                     )}
@@ -138,7 +138,7 @@ export default function ModalEditInfoProfile({
                       className="max-w-xl w-full px-4 py-1 mt-1 bg-bgLightPurple text-gray1 border border-gray1 rounded  focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
                     />
                     {remainingBioChar === 0 && (
-                      <p className="text-right text-gray2 mt-1">
+                      <p className="text-right text-gray2 mt-1 cursor-auto">
                         {remainingBioChar} characters remaining
                       </p>
                     )}

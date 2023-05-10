@@ -1,7 +1,10 @@
 # Social Hub
 
-Social Hub is an interactive social media platform that fosters connection and engagement among its users. The app enables users to share their thoughts, experiences, and ideas through posts, providing a dynamic feed that showcases content from all users on the platform.
-
+   Social Hub is an interactive social media platform that fosters connection and            engagement among its users. This platform provides a space for users to share
+            posts, bringing together different ideas and experiences into a shared feed. A
+            unique aspect of this project is the user profile page, which displays an
+            engagement graph alongside user information and posts, offering a snapshot of
+            user activity.
 ## Key Features
 
 - Posting content to share with other users

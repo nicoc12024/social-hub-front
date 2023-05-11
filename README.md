@@ -36,3 +36,5 @@ Run the development server for both frontend and backend
 Open the app in your browser
 
 If you're interested in diving deeper into Social Hub, feel free to explore the code and contribute to its development. Your feedback and contributions are highly appreciated!
+
+## backend source: https://github.com/nicoc12024/social-hub-backend
